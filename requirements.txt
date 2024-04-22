@@ -1,2 +1,2 @@
-flask
-Gunicorn
+flask --no-warn-script-location
+Gunicorn --no-warn-script-location
