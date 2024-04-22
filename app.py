@@ -472,5 +472,5 @@ api.add_resource(TeacherLogin,'/teacher_login')
 #             # Return error message for incorrect credentials
 #             return jsonify({'message': 'Invalid email or password!'}), 401
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
